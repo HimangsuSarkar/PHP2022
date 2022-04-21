@@ -31,12 +31,18 @@ echo substr($string,0,5);
 echo substr($string,5);
 
 //starts with
-if(str_starts_with($string,'Hello')){
-  echo "YES";
-};
+// if(str_starts_with($string,'Hello')){
+//   echo "YES";
+// };
 
-//end with
+ //end with
 
-if(str_ends_with($string,'id')){
-  echo "yes";
-};
+// if(str_ends_with($string,'id')){
+//   echo "yes";
+// }; 
+
+$string2='<script>alert(1)</script>';
+echo htmlspecialchars($string2);
+
+printf('%s likes to %s','Himu','code');
+printf('1+1=%d',1+1);
