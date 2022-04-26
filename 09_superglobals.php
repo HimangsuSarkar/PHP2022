@@ -1,3 +1,4 @@
+<?
 /*-----superglobals-----*/
 //Built in variables that are always available in all scopes 
 
@@ -18,10 +19,14 @@ $_REQUEST- Contains information about variables passed through the form or URL.
 
 */
 
+//  var_dump($GLOBALS);
+//   var_dump($_GET);
+//   var_dump($GLOBALS)
+?>
 
-// var_dump($GLOBALS);
-// var_dump($_GET);
-// var_dump($_REQUEST);
+
+
+
 
 <!DOCTYPE html>
 <html lang="en">
